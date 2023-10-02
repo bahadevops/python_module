@@ -92,6 +92,12 @@ print(txt.find("Florida"))
 
 
 sentence= "I hope the Bears don't lose again tomorrow!"
-replaced_version=sentence.replace("don't","start")
-replaced_two=replaced_version.replace("lose", "winning")
-print(replaced_version, "\n"+replaced_two)
+replaced_version=sentence.replace("don't","start").replace("lose", "winning")
+#replaced_two=replaced_version.replace("lose", "winning")
+print(replaced_version)
+
+
+name=input("Name: ")
+address=input("Street Address: ")
+phone=input("Phone Number: ")
+print("\nMy name is "+name+ " and I live at "+address+ ". My phone number is "+phone)
