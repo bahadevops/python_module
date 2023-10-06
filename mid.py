@@ -97,7 +97,8 @@ replaced_version=sentence.replace("don't","start").replace("lose", "winning")
 print(replaced_version)
 
 
-name=input("Name: ")
-address=input("Street Address: ")
-phone=input("Phone Number: ")
+name=input("Name: ").isupper
+address=input("Street Address: ").isupper
+phone=input("Phone Number: ").isupper
 print("\nMy name is "+name+ " and I live at "+address+ ". My phone number is "+phone)
+print(type(name))
